@@ -120,7 +120,7 @@ Primary Movement Strategy                   := Board Enemy Ships
 Secondary Movement Strategy                 := Optimal Weapons Range
 Targeting Priority 1                        := Has Weapons
 Targeting Priority 2                        := Strongest
-Targeting Priority 3                        := Most Damaged
+Targeting Priority 3                        := Least Damaged
 Targeting Priority 4                        := Nearest
 Use Type Priority First                     := False
 Type Priority Planets                       := 14
@@ -317,7 +317,7 @@ Break Formation Drones                      := True
 
 Name                                        := Maximum Weapons Range
 Primary Movement Strategy                   := Maximum Weapons Range
-Secondary Movement Strategy                 := Point Blank
+Secondary Movement Strategy                 := Don't Get Hurt
 Targeting Priority 1                        := Has Weapons
 Targeting Priority 2                        := Nearest
 Targeting Priority 3                        := Most Damaged
