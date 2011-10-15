@@ -1,0 +1,421 @@
+=======================================================================================
+AI CONSTRUCTION VEHICLES DATA FILE - Normal
+=======================================================================================
+
+AI State:
+  Exploration, Infrastructure, Prepare for Attack, Attack, 
+  Secure Holdings After Attack, Incursion, Prepare for Defense, 
+  Defend (Short Term), Defend (Long Term), Not Connected 
+
+
+Num Queue Entries:
+  Num Entries
+
+Entry X Type:
+  AI Design Type - 
+    Attack Ship, Defense Ship, Attack Base, Defense Base, Base Space Yard, 
+    Cargo Transport, Troop Transport, Carrier, Colony (Rock), Colony (Ice), 
+    Colony (Gas), Mine Layer, Mine Sweeper, Boarding Ship, Open Warp Point, 
+    Close Warp Point, Create Planet, Destroy Planet, Create Star, Destroy Star, 
+    Create Storm, Destroy Storm, Space Yard Ship, Mine, Satellite, Weapon Platform,
+    Troop, Fighter, Create Black Hole, Destroy Black Hole, Create Nebulae, 
+    Destroy Nebulae, Satellite Layer, Kamikaze Attack Ship, Recon Satellite,
+    Anti-Ship Drone, Anti-Planet Drone, Drone Carrier 
+
+
+Entry X Planet Per Item:
+  Number of planets per each item in 10ths. 
+  (20 = 2.0: We want 1 item for every 2 planets we have.)
+
+Entry X Must Have At Least:
+  Must have this many of this type in existance, or being built. 
+  If not, then build more.  
+  This comes before Planet Per Item.
+
+Rules:
+  1. The game picks a selection based on the AI State. There cannot be duplicate
+     AI states.
+  2. Item will be placed at whichever spaceyard is available and can get it done the fastest.
+  3. First item in the queue is selected, and evaluated. We construct if:
+     a. There are less than X planets per each item, (if there are 13 planets and we already
+        have 4 ships of this design type, and the Planet Per Item value = 3, 
+        then we buy another one). If PPI < (Num Planets / Num Ships of Type), construct. 
+  4. If the Build at Least value is greater than 0, we check if the Planet Per Item condition
+     is still true. If it is, then we purchase another one, if not, we move to the next 
+     queue item. If we do purchase another one, we continue in this loop until the
+     condition is false, or we have purchased the number in Build At Least.
+  5. When the last item is reached, it restarts at the beginning.
+
+
+  
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+AI State                     := Exploration
+Num Queue Entries            := 15
+Entry 1 Type                 := Attack Ship
+Entry 1 Planet Per Item      := 50
+Entry 1 Must Have At Least   := 2
+Entry 2 Type                 := Weapon Platform
+Entry 2 Planet Per Item      := 0
+Entry 2 Must Have At Least   := 2
+Entry 3 Type                 := Satellite
+Entry 3 Planet Per Item      := 0
+Entry 3 Must Have At Least   := 2
+Entry 4 Type                 := Mine Sweeper
+Entry 4 Planet Per Item      := 200
+Entry 4 Must Have At Least   := 1
+Entry 5 Type                 := Colonizer
+Entry 5 Planet Per Item      := 30
+Entry 5 Must Have At Least   := 2
+Entry 6 Type                 := Weapon Platform
+Entry 6 Planet Per Item      := 5
+Entry 6 Must Have At Least   := 5
+Entry 7 Type                 := Satellite
+Entry 7 Planet Per Item      := 5
+Entry 7 Must Have At Least   := 5
+Entry 8 Type                 := Mine
+Entry 8 Planet Per Item      := 5
+Entry 8 Must Have At Least   := 2
+Entry 9 Type                 := Fighter
+Entry 9 Planet Per Item      := 3
+Entry 9 Must Have At Least   := 2
+Entry 10 Type                := Mine Layer
+Entry 10 Planet Per Item     := 0
+Entry 10 Must Have At Least  := 1
+Entry 11 Type                := Carrier
+Entry 11 Planet Per Item     := 50
+Entry 11 Must Have At Least  := 1
+Entry 12 Type                := Recon Satellite
+Entry 12 Planet Per Item     := 50
+Entry 12 Must Have At Least  := 0
+Entry 13 Type                := Anti-Ship Drone
+Entry 13 Planet Per Item     := 10
+Entry 13 Must Have At Least  := 1
+Entry 14 Type                := Anti-Planet Drone
+Entry 14 Planet Per Item     := 10
+Entry 14 Must Have At Least  := 1
+Entry 15 Type                := Drone Carrier
+Entry 15 Planet Per Item     := 50
+Entry 15 Must Have At Least  := 1
+
+AI State                     := Infrastructure
+Num Queue Entries            := 39
+Entry 1 Type                 := Defense Base
+Entry 1 Planet Per Item      := 100
+Entry 1 Must Have At Least   := 0
+Entry 2 Type                 := Attack Ship
+Entry 2 Planet Per Item      := 20
+Entry 2 Must Have At Least   := 2
+Entry 3 Type                 := Colonizer
+Entry 3 Planet Per Item      := 80
+Entry 3 Must Have At Least   := 1
+Entry 4 Type                 := Weapon Platform
+Entry 4 Planet Per Item      := 5
+Entry 4 Must Have At Least   := 5
+Entry 5 Type                 := Satellite
+Entry 5 Planet Per Item      := 5
+Entry 5 Must Have At Least   := 5
+Entry 6 Type                 := Mine Sweeper
+Entry 6 Planet Per Item      := 200
+Entry 6 Must Have At Least   := 1
+Entry 7 Type                 := Defense Ship
+Entry 7 Planet Per Item      := 40
+Entry 7 Must Have At Least   := 0
+Entry 8 Type                 := Population Transport
+Entry 8 Planet Per Item      := 40
+Entry 8 Must Have At Least   := 1
+Entry 9 Type                 := Base Space Yard
+Entry 9 Planet Per Item      := 100
+Entry 9 Must Have At Least   := 0
+Entry 10 Type                := Weapon Platform
+Entry 10 Planet Per Item     := 5
+Entry 10 Must Have At Least  := 0
+Entry 11 Type                := Fighter
+Entry 11 Planet Per Item     := 2
+Entry 11 Must Have At Least  := 20
+Entry 12 Type                := Carrier
+Entry 12 Planet Per Item     := 30
+Entry 12 Must Have At Least  := 2
+Entry 13 Type                := Troop
+Entry 13 Planet Per Item     := 10
+Entry 13 Must Have At Least  := 0
+Entry 14 Type                := Troop Transport
+Entry 14 Planet Per Item     := 100
+Entry 14 Must Have At Least  := 1
+Entry 15 Type                := Space Yard Ship
+Entry 15 Planet Per Item     := 50
+Entry 15 Must Have At Least  := 0
+Entry 16 Type                := Mine Sweeper
+Entry 16 Planet Per Item     := 50
+Entry 16 Must Have At Least  := 0
+Entry 17 Type                := Satellite Layer
+Entry 17 Planet Per Item     := 50
+Entry 17 Must Have At Least  := 1
+Entry 18 Type                := Satellite
+Entry 18 Planet Per Item     := 10
+Entry 18 Must Have At Least  := 0
+Entry 19 Type                := Recon Satellite
+Entry 19 Planet Per Item     := 50
+Entry 19 Must Have At Least  := 0
+Entry 20 Type                := Anti-Ship Drone
+Entry 20 Planet Per Item     := 10
+Entry 20 Must Have At Least  := 1
+Entry 21 Type                := Anti-Planet Drone
+Entry 21 Planet Per Item     := 10
+Entry 21 Must Have At Least  := 1
+Entry 22 Type                := Drone Carrier
+Entry 22 Planet Per Item     := 40
+Entry 22 Must Have At Least  := 1
+Entry 23 Type                := Mine
+Entry 23 Planet Per Item     := 10
+Entry 23 Must Have At Least  := 0
+Entry 24 Type                := Mine Layer
+Entry 24 Planet Per Item     := 100
+Entry 24 Must Have At Least  := 1
+Entry 25 Type                := Attack Base
+Entry 25 Planet Per Item     := 200
+Entry 25 Must Have At Least  := 0
+Entry 26 Type                := Create Planet
+Entry 26 Planet Per Item     := 200
+Entry 26 Must Have At Least  := 0
+Entry 27 Type                := Destroy Planet
+Entry 27 Planet Per Item     := 200
+Entry 27 Must Have At Least  := 0
+Entry 28 Type                := Destroy Star
+Entry 28 Planet Per Item     := 200
+Entry 28 Must Have At Least  := 0
+Entry 29 Type                := Close Warp Point
+Entry 29 Planet Per Item     := 200
+Entry 29 Must Have At Least  := 0
+Entry 30 Type                := Create Black Hole
+Entry 30 Planet Per Item     := 200
+Entry 30 Must Have At Least  := 0
+Entry 31 Type                := Create Nebulae
+Entry 31 Planet Per Item     := 200
+Entry 31 Must Have At Least  := 0
+Entry 32 Type                := Open Warp Point
+Entry 32 Planet Per Item     := 200
+Entry 32 Must Have At Least  := 0
+Entry 33 Type                := Destroy Black Hole
+Entry 33 Planet Per Item     := 200
+Entry 33 Must Have At Least  := 0
+Entry 34 Type                := Destroy Nebulae
+Entry 34 Planet Per Item     := 200
+Entry 34 Must Have At Least  := 0
+Entry 35 Type                := Create Star
+Entry 35 Planet Per Item     := 200
+Entry 35 Must Have At Least  := 0
+Entry 36 Type                := Boarding Ship
+Entry 36 Planet Per Item     := 200
+Entry 36 Must Have At Least  := 0
+Entry 37 Type                := Kamikaze Attack Ship
+Entry 37 Planet Per Item     := 200
+Entry 37 Must Have At Least  := 0
+Entry 38 Type                := Create Storm
+Entry 38 Planet Per Item     := 200
+Entry 38 Must Have At Least  := 0
+Entry 39 Type                := Destroy Storm
+Entry 39 Planet Per Item     := 200
+Entry 39 Must Have At Least  := 0
+
+AI State                     := Prepare for Attack, Attack
+Num Queue Entries            := 13
+Entry 1 Type                 := Attack Ship
+Entry 1 Planet Per Item      := 30
+Entry 1 Must Have At Least   := 3
+Entry 2 Type                 := Colonizer
+Entry 2 Planet Per Item      := 50
+Entry 2 Must Have At Least   := 2
+Entry 3 Type                 := Mine Sweeper
+Entry 3 Planet Per Item      := 200
+Entry 3 Must Have At Least   := 1
+Entry 4 Type                 := Mine
+Entry 4 Planet Per Item      := 5
+Entry 4 Must Have At Least   := 2
+Entry 5 Type                 := Fighter
+Entry 5 Planet Per Item      := 2
+Entry 5 Must Have At Least   := 20
+Entry 6 Type                 := Weapon Platform
+Entry 6 Planet Per Item      := 5
+Entry 6 Must Have At Least   := 10
+Entry 7 Type                 := Satellite
+Entry 7 Planet Per Item      := 5
+Entry 7 Must Have At Least   := 10
+Entry 8 Type                 := Mine Layer
+Entry 8 Planet Per Item      := 0
+Entry 8 Must Have At Least   := 1
+Entry 9 Type                 := Carrier
+Entry 9 Planet Per Item      := 30
+Entry 9 Must Have At Least   := 2
+Entry 10 Type                := Recon Satellite
+Entry 10 Planet Per Item     := 50
+Entry 10 Must Have At Least  := 0
+Entry 11 Type                := Anti-Ship Drone
+Entry 11 Planet Per Item     := 10
+Entry 11 Must Have At Least  := 1
+Entry 12 Type                := Anti-Planet Drone
+Entry 12 Planet Per Item     := 10
+Entry 12 Must Have At Least  := 1
+Entry 13 Type                := Drone Carrier
+Entry 13 Planet Per Item     := 40
+Entry 13 Must Have At Least  := 1
+
+AI State                     := Secure Holdings After Attack, Incursion
+Num Queue Entries            := 13
+Entry 1 Type                 := Attack Ship
+Entry 1 Planet Per Item      := 30
+Entry 1 Must Have At Least   := 3
+Entry 2 Type                 := Colonizer
+Entry 2 Planet Per Item      := 30
+Entry 2 Must Have At Least   := 2
+Entry 3 Type                 := Mine
+Entry 3 Planet Per Item      := 5
+Entry 3 Must Have At Least   := 2
+Entry 4 Type                 := Fighter
+Entry 4 Planet Per Item      := 2
+Entry 4 Must Have At Least   := 20
+Entry 5 Type                 := Mine Sweeper
+Entry 5 Planet Per Item      := 200
+Entry 5 Must Have At Least   := 1
+Entry 6 Type                 := Weapon Platform
+Entry 6 Planet Per Item      := 5
+Entry 6 Must Have At Least   := 10
+Entry 7 Type                 := Satellite
+Entry 7 Planet Per Item      := 5
+Entry 7 Must Have At Least   := 10
+Entry 8 Type                 := Mine Layer
+Entry 8 Planet Per Item      := 0
+Entry 8 Must Have At Least   := 1
+Entry 9 Type                 := Carrier
+Entry 9 Planet Per Item      := 30
+Entry 9 Must Have At Least   := 2
+Entry 10 Type                := Recon Satellite
+Entry 10 Planet Per Item     := 50
+Entry 10 Must Have At Least  := 0
+Entry 11 Type                := Anti-Ship Drone
+Entry 11 Planet Per Item     := 10
+Entry 11 Must Have At Least  := 1
+Entry 12 Type                := Anti-Planet Drone
+Entry 12 Planet Per Item     := 10
+Entry 12 Must Have At Least  := 1
+Entry 13 Type                := Drone Carrier
+Entry 13 Planet Per Item     := 40
+Entry 13 Must Have At Least  := 1
+
+AI State                     := Prepare for Defense, Defend (Short Term), Defend (Long Term)
+Num Queue Entries            := 21
+Entry 1 Type                 := Weapon Platform
+Entry 1 Planet Per Item      := 0
+Entry 1 Must Have At Least   := 2
+Entry 2 Type                 := Satellite
+Entry 2 Planet Per Item      := 0
+Entry 2 Must Have At Least   := 2
+Entry 3 Type                 := Attack Ship
+Entry 3 Planet Per Item      := 30
+Entry 3 Must Have At Least   := 2
+Entry 4 Type                 := Mine
+Entry 4 Planet Per Item      := 0
+Entry 4 Must Have At Least   := 2
+Entry 5 Type                 := Fighter
+Entry 5 Planet Per Item      := 0
+Entry 5 Must Have At Least   := 2
+Entry 6 Type                 := Mine Sweeper
+Entry 6 Planet Per Item      := 200
+Entry 6 Must Have At Least   := 1
+Entry 7 Type                 := Colonizer
+Entry 7 Planet Per Item      := 100
+Entry 7 Must Have At Least   := 1
+Entry 8 Type                 := Weapon Platform
+Entry 8 Planet Per Item      := 5
+Entry 8 Must Have At Least   := 10
+Entry 9 Type                 := Satellite
+Entry 9 Planet Per Item      := 5
+Entry 9 Must Have At Least   := 10
+Entry 10 Type                := Mine
+Entry 10 Planet Per Item     := 5
+Entry 10 Must Have At Least  := 2
+Entry 11 Type                := Fighter
+Entry 11 Planet Per Item     := 2
+Entry 11 Must Have At Least  := 20
+Entry 12 Type                := Troop
+Entry 12 Planet Per Item     := 10
+Entry 12 Must Have At Least  := 2
+Entry 13 Type                := Satellite Layer
+Entry 13 Planet Per Item     := 0
+Entry 13 Must Have At Least  := 1
+Entry 14 Type                := Mine Layer
+Entry 14 Planet Per Item     := 0
+Entry 14 Must Have At Least  := 1
+Entry 15 Type                := Carrier
+Entry 15 Planet Per Item     := 30
+Entry 15 Must Have At Least  := 2
+Entry 16 Type                := Troop Transport
+Entry 16 Planet Per Item     := 0
+Entry 16 Must Have At Least  := 1
+Entry 17 Type                := Recon Satellite
+Entry 17 Planet Per Item     := 50
+Entry 17 Must Have At Least  := 0
+Entry 18 Type                := Anti-Ship Drone
+Entry 18 Planet Per Item     := 10
+Entry 18 Must Have At Least  := 1
+Entry 19 Type                := Anti-Planet Drone
+Entry 19 Planet Per Item     := 10
+Entry 19 Must Have At Least  := 1
+Entry 20 Type                := Drone Carrier
+Entry 20 Planet Per Item     := 40
+Entry 20 Must Have At Least  := 1
+Entry 21 Type                := Attack Ship
+Entry 21 Planet Per Item     := 1
+Entry 21 Must Have At Least  := 1
+
+AI State                     := Not Connected
+Num Queue Entries            := 14
+Entry 1 Type                 := Attack Ship
+Entry 1 Planet Per Item      := 30
+Entry 1 Must Have At Least   := 2
+Entry 2 Type                 := Colonizer
+Entry 2 Planet Per Item      := 30
+Entry 2 Must Have At Least   := 0
+Entry 3 Type                 := Open Warp Point
+Entry 3 Planet Per Item      := 200
+Entry 3 Must Have At Least   := 1
+Entry 4 Type                 := Mine Sweeper
+Entry 4 Planet Per Item      := 200
+Entry 4 Must Have At Least   := 1
+Entry 5 Type                 := Mine
+Entry 5 Planet Per Item      := 5
+Entry 5 Must Have At Least   := 2
+Entry 6 Type                 := Fighter
+Entry 6 Planet Per Item      := 3
+Entry 6 Must Have At Least   := 20
+Entry 7 Type                 := Weapon Platform
+Entry 7 Planet Per Item      := 5
+Entry 7 Must Have At Least   := 10
+Entry 8 Type                 := Satellite
+Entry 8 Planet Per Item      := 5
+Entry 8 Must Have At Least   := 10
+Entry 9 Type                 := Mine Layer
+Entry 9 Planet Per Item      := 0
+Entry 9 Must Have At Least   := 1
+Entry 10 Type                := Carrier
+Entry 10 Planet Per Item     := 30
+Entry 10 Must Have At Least  := 2
+Entry 11 Type                := Recon Satellite
+Entry 11 Planet Per Item     := 50
+Entry 11 Must Have At Least  := 0
+Entry 12 Type                := Anti-Ship Drone
+Entry 12 Planet Per Item     := 20
+Entry 12 Must Have At Least  := 1
+Entry 13 Type                := Anti-Planet Drone
+Entry 13 Planet Per Item     := 20
+Entry 13 Must Have At Least  := 1
+Entry 14 Type                := Drone Carrier
+Entry 14 Planet Per Item     := 60
+Entry 14 Must Have At Least  := 1
+
+=======================================================================================
+*END*
+=======================================================================================
+

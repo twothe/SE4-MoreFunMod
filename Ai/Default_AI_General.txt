@@ -1,0 +1,90 @@
+=======================================================================================
+AI DATA FILE - General
+=======================================================================================
+
+Demeanor:
+  Psychotic, Violent, Aggressive, Impulsive, Neutral, Friendly, 
+  Honorable, Serene
+
+Culture:
+  Neutral, Berzerkers, Warriors, Traders, Politicians, Artisans, 
+  Scientists, Workers, Schemers, Zealots, Engineers, Merchants, 
+  Renegades, Xenophobes
+
+Planet Type:
+  Rock, Ice, Gas Giant
+
+Atmosphere:
+  None, Methane, Oxygen, Hydrogen, Carbon Dioxide
+
+Characteristics:
+  Physical Strength, Intelligence, Cunning, Environmental Resistance,
+  Reproduction, Happiness, Aggressiveness, Defensiveness, Political Savvy,
+  Mining Aptitude, Farming Aptitude, Refining Aptitude, Construction Aptitude,
+  Repair Aptitude, Maintenance Aptitude
+
+Adv Traits:
+  Advanced Power Conservation, Mechanoids, Lucky, Natural Merchants, 
+  Propulsion Experts, Ancient Race, Advanced Storage Techniques, 
+  Hardy Spacefarrers, Psychic, Deeply Religious, Temporal Knowledge, 
+  Crystallurgy, Emotionless
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Default
+Description                              := A generic personality.
+Empire Name                              := 
+Empire Type                              := 
+Emperor Name                             := 
+Emperor Title                            := 
+Biological Description                   := Humanoid physiology.
+Society Description                      := Modern democracy.
+General History Description              := Almost destroyed themselves with nuclear weapons, but finally matured into a space-faring society.
+Demeanor                                 := Neutral
+Culture                                  := Neutral
+Happiness Type                           := Peaceful
+Planet Type                              := Rock
+Atmosphere                               := Oxygen
+Design Name File                         := Ravager.txt
+Race Opt 1 Num Characteristics           := 4
+Race Opt 1 Characteristic 1 Type         := Mining Aptitude
+Race Opt 1 Characteristic 1 Amount       := 120
+Race Opt 1 Characteristic 2 Type         := Farming Aptitude
+Race Opt 1 Characteristic 2 Amount       := 120
+Race Opt 1 Characteristic 3 Type         := Refining Aptitude
+Race Opt 1 Characteristic 3 Amount       := 120
+Race Opt 1 Characteristic 4 Type         := Construction Aptitude
+Race Opt 1 Characteristic 4 Amount       := 120
+Race Opt 1 Num Advanced Traits           := 0
+Race Opt 2 Num Characteristics           := 4
+Race Opt 2 Characteristic 1 Type         := Mining Aptitude
+Race Opt 2 Characteristic 1 Amount       := 120
+Race Opt 2 Characteristic 2 Type         := Farming Aptitude
+Race Opt 2 Characteristic 2 Amount       := 120
+Race Opt 2 Characteristic 3 Type         := Refining Aptitude
+Race Opt 2 Characteristic 3 Amount       := 120
+Race Opt 2 Characteristic 4 Type         := Construction Aptitude
+Race Opt 2 Characteristic 4 Amount       := 120
+Race Opt 2 Num Advanced Traits           := 1
+Race Opt 2 Adv Trait 1                   := Propulsion Experts
+Race Opt 3 Num Characteristics           := 4
+Race Opt 3 Characteristic 1 Type         := Mining Aptitude
+Race Opt 3 Characteristic 1 Amount       := 120
+Race Opt 3 Characteristic 2 Type         := Farming Aptitude
+Race Opt 3 Characteristic 2 Amount       := 120
+Race Opt 3 Characteristic 3 Type         := Refining Aptitude
+Race Opt 3 Characteristic 3 Amount       := 120
+Race Opt 3 Characteristic 4 Type         := Construction Aptitude
+Race Opt 3 Characteristic 4 Amount       := 120
+Race Opt 3 Num Advanced Traits           := 3
+Race Opt 3 Adv Trait 1                   := Propulsion Experts
+Race Opt 3 Adv Trait 2                   := Advanced Power Conservation
+Race Opt 3 Adv Trait 3                   := Natural Merchants
+
+=======================================================================================
+*END*
+=======================================================================================
+

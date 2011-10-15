@@ -1,0 +1,15 @@
+Modinfo2
+Obsolete:-
+False
+ModName:-
+More Fun Mod [MoreFunMod]
+Version:-
+1.0
+Author:-
+TwoThe
+E-Mail:-
+twothe@web.de
+Website:-
+None
+Description
+A mod that attemps to increase the fun of SE4 without changing the general gameplay.
