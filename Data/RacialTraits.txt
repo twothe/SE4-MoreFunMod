@@ -8,21 +8,6 @@ RACIAL TRAITS DATA FILE
 *BEGIN*
 =======================================================================================
 
-Name                  := Developer
-Description           := Used to ease mod developing, definitely cheating!
-Pic Num               := 0
-General Type          := Advantage
-Cost                  := 0
-Trait Type            := Tech Area
-Value 1               := 6
-Value 2               := 0
-Required Trait 1      := None
-Required Trait 2      := None
-Required Trait 3      := None
-Restricted Trait 1    := None
-Restricted Trait 2    := None
-Restricted Trait 3    := None
-
 Name                  := Advanced Power Conservation
 Description           := Supply usage by all space vehicles is reduced by 25%. 
 Pic Num               := 0
