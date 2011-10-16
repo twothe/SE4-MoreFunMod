@@ -62,6 +62,18 @@ Tech Area Req #, Tech Level Req #:
 *BEGIN*
 =======================================================================================
 
+Name                  := Developer tools
+Group                 := Applied Science
+Description           := Tools to ease mod developing.
+Maximum Level         := 1
+Level Cost            := 1
+Start Level           := 1
+Raise Level           := 0
+Racial Area           := 6
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
 Name                  := Rock Planet Colonization
 Group                 := Applied Science
 Description           := Creation of colonies which can survive on rock based planets.

@@ -62,32 +62,32 @@ Tech Area Min Percent        := 25
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Physics
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Energy Stream Weapons
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 50
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Military Science
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Sensors
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 9
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Combat Support
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 9
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Ship Construction
 Tech Area Level              := 4
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Construction
@@ -112,12 +112,12 @@ Tech Area Min Percent        := 25
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Applied Intelligence
 Tech Area Level              := 2
-Tech Area Min Percent        := 25
+Tech Area Min Percent        := 50
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Base Construction
 Tech Area Level              := 2
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Propulsion
@@ -167,7 +167,7 @@ Tech Area Min Percent        := 25
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Applied Intelligence
 Tech Area Level              := 4
-Tech Area Min Percent        := 25
+Tech Area Min Percent        := 10
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Minerals Extraction
@@ -177,217 +177,192 @@ Tech Area Min Percent        := 25
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Rock Planet Colonization
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Ice Planet Colonization
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Gas Giant Colonization
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Smaller Weapons
 Tech Area Level              := 3
-Tech Area Min Percent        := 100
-
-AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
-Tech Area Name               := Minerals Extraction
-Tech Area Level              := 3
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 25
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Sensors
 Tech Area Level              := 6
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 25
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Applied Research
 Tech Area Level              := 3
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Applied Intelligence
 Tech Area Level              := 3
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Shields
 Tech Area Level              := 10
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 25
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Physics
 Tech Area Level              := 3
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Cloaking
 Tech Area Level              := 3
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 50
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Astrophysics
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Construction
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Military Science
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Industry
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Combat Support
 Tech Area Level              := 4
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Computers
 Tech Area Level              := 6
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Ship Construction
 Tech Area Level              := 12
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 50
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Base Construction
 Tech Area Level              := 3
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 50
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Propulsion
 Tech Area Level              := 12
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 25
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Chemistry
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Armor
 Tech Area Level              := 6
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 50
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Advanced Military Science
 Tech Area Level              := 6
-Tech Area Min Percent        := 100
-
-AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
-Tech Area Name               := Minerals Extraction
-Tech Area Level              := 9
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 50
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Radioactives Extraction
 Tech Area Level              := 3
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 25
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Organics Extraction
 Tech Area Level              := 3
-Tech Area Min Percent        := 100
-
-AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
-Tech Area Name               := Weapon Platforms
-Tech Area Level              := 3
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 25
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Satellites
 Tech Area Level              := 3
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 25
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Drones
 Tech Area Level              := 3
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 25
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Space Yards
 Tech Area Level              := 3
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Missile Weapons
 Tech Area Level              := 7
-Tech Area Min Percent        := 100
-
-AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
-Tech Area Name               := Radioactives Extraction
-Tech Area Level              := 9
-Tech Area Min Percent        := 100
-
-AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
-Tech Area Name               := Organics Extraction
-Tech Area Level              := 9
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 25
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Stellar Manipulation
 Tech Area Level              := 12
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Not Connected
 Tech Area Name               := Rock Planet Colonization
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Not Connected
 Tech Area Name               := Ice Planet Colonization
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Not Connected
 Tech Area Name               := Gas Giant Colonization
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Not Connected
 Tech Area Name               := Ship Construction
 Tech Area Level              := 5
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Not Connected
 Tech Area Name               := Propulsion
 Tech Area Level              := 5
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Not Connected
 Tech Area Name               := Shields
 Tech Area Level              := 5
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Not Connected
 Tech Area Name               := Astrophysics
 Tech Area Level              := 1
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Not Connected
 Tech Area Name               := Space Yards
 Tech Area Level              := 3
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 AI State                     := Not Connected
 Tech Area Name               := Stellar Manipulation
 Tech Area Level              := 7
-Tech Area Min Percent        := 100
+Tech Area Min Percent        := 99
 
 =======================================================================================
 *END*
