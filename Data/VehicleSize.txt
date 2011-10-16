@@ -1260,44 +1260,6 @@ Requirement Pct Fighter Bays  := 0
 Requirement Pct Colony Mods   := 0
 Requirement Pct Cargo         := 0
 
-Name                          := Advanced Colony Ship
-Short Name                    := Advanced Colony Ship
-Description                   := An advanced colony ship designed for deep space colonization.
-Code                          := ACL
-Primary Bitmap Name           := colonyship
-Alternate Bitmap Name         := colonyship
-Vehicle Type                  := Ship
-Tonnage                       := 500
-Cost Minerals                 := 250
-Cost Organics                 := 0
-Cost Radioactives             := 0
-Engines Per Move              := 1
-Number of Tech Req            := 1
-Tech Area Req 1               := Ship Construction
-Tech Level Req 1              := 4
-Number of Abilities           := 3
-Ability 1 Type                := Modified Maintenance Cost
-Ability 1 Descr               := Reduced wear and tear allow for a decrease in maintenance cost of 25%.
-Ability 1 Val 1               := -25
-Ability 1 Val 2               := 0
-Ability 2 Type                := Supply Storage
-Ability 2 Descr               := Specialized engines allow for extra supply.
-Ability 2 Val 1               := 1000
-Ability 2 Val 2               := 0
-Ability 3 Type                := Cargo Storage
-Ability 3 Descr               := Specialized hull allows for extra cargo.
-Ability 3 Val 1               := 250
-Ability 3 Val 2               := 999
-Requirement Must Have Bridge  := True
-Requirement Can Have Aux Con  := True
-Requirement Min Life Support  := 1
-Requirement Min Crew Quarters := 1
-Requirement Uses Engines      := True
-Requirement Max Engines       := 5
-Requirement Pct Fighter Bays  := 0
-Requirement Pct Colony Mods   := 30
-Requirement Pct Cargo         := 0
-
 =======================================================================================
 *END*
 =======================================================================================
