@@ -68,7 +68,7 @@ Max Per System                            := 100
 Percent of Colonies                       := 10
 Minimum Planet Size for Type              := Tiny
 Mineral Value                             := 100
-Organics Value                            := 130
+Organics Value                            := 120
 Radioactives Value                        := 100
 Maximum Total in Empire                   := 0
 
@@ -79,7 +79,7 @@ Percent of Colonies                       := 10
 Minimum Planet Size for Type              := Tiny
 Mineral Value                             := 100
 Organics Value                            := 100
-Radioactives Value                        := 130
+Radioactives Value                        := 120
 Maximum Total in Empire                   := 0
 
 AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
