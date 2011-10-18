@@ -329,7 +329,7 @@ Ability 1 Val 2       := 0
 Weapon Type           := None
 
 Name                  := Auxiliary Control
-Description           := If a ship's bridge is ever destroyed, this will serve as a temporary bridge for the ship.
+Description           := A ship's engineering can do minor repairs, or serve as an emergency bridge.
 Pic Num               := 2
 Tonnage Space Taken   := 10
 Tonnage Structure     := 10
