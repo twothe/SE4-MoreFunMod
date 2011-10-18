@@ -37,6 +37,8 @@ Name                 := Troop Transport
 
 Name                 := Carrier
 
+Name                 := Satellite Layer
+
 Name                 := Mine Layer
 
 Name                 := Mine Sweeper
