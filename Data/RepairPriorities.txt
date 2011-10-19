@@ -2,8 +2,8 @@ Construction
 Vehicle Control
 Engines
 Supply
-Shields
 Armor
+Shields
 Weapons
 Sensors
 Colonizing
