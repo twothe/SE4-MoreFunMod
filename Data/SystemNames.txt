@@ -1,104 +1,396 @@
+Abraxas
+Acheron
+Achilles
+Actaeon
+Adramalech
+Adriel
+Aeacus
+Aegis
+Aether
+Agamemnon
+Alastor
 Aldan
+Alecto
+Alia
+Alpha Node
+Alpha Omicron
+Anacreon
+Andariel
+Angelica
+Anubis
+Aphotic Sequence
+Aphrodite
+Arachnia
+Arcadia
+Arcana
+Ardente
+Ariadne
 Arklite
+Artemis
 Ashadra
+Asmodeus
+Asphodel
+Astaroth
+Astrid
+Ataraxia
+Athalia
+Atlantis
 Atull
-Bardron
+Aurora
+Aurora Fatalis
+Avalon
+Avernus Minor
+Avia
+Azrael
+Azure
+Baal
+Bacchus
 Baksha
+Baphomet
+Bardron
+Bastet
+Bathory
+Belial
+Beta Forminia
+Beta Medusa
 Bizzet
+Black Cluster
+Blackstar
+Brimstone Cove
 Butukret
+Cabal
+Caliban
+Carnifex
+Carrion
+Cassiel
+Catacomb
+Cathedral
+Cauldron Sector
+Celeste
+Central Wastes
 Cephedri
-Cuyrok
+Cerberus
 Cewandi
+Chaos Cynosure
+Charnel
+Charybdis
+Choronzon
+Chrona
+Cirrus
+Cocytus
+Constantine
+Coven
 Cretirk
-Devonshire
+Crisium
+Croesus
+Cthon
+Cuyrok
+Cyrillia
+Daedelus
+Dagon
+Dalinian
+Damocles Sword
+Dantalion
+Dante's Circle
+Dark Junction
+Dark Star
+De Profundis
+Delta Draconis
+Demeter
+Demonia
 Dertran
-Dussullet
+Descartian Void
+Deuteron
+Devonshire
+Dionysus
+Discordia
 Dornot
+Draconis
+Dussullet
+Dying Light
+Dystopia
+Echo Tertiary
+Electra
+Elysium
+Endymion
 Ephandra
-Eurul
+Epsilon Minora
 Equandul
+Equinox
+Erebus Node
+Eris
 Eskirk
+Euphrosyne
+Eurul
+Excelsis
+Ferox
+Fezzran
+Fiorina
+Forlon
+Fornax Spectra
+Forneus
+Fortuna
 Fortunil
 Fwandrei
-Fezzran
-Forlon
 Galgamis
-Gretok
+Gamalon
+Gavigan
+Gehenna
 Gergan
 Ghedran
-Hollifax
+Golgotha
+Gor
+Gretok
+Hades
+Halo Gateway
 Haphik
+Hecate
+Helicon
+Helios
+Hemera
+Hera's Singularity
+Hesperia
+Hollifax
 Huju
 Hwansul
-Ikrod
-Ishantrissti
-Iolo
+Hydra Extensis
+Hyperion
+Hypnos
 Ibsunk
-Jubrup
+Icarus
+Ignotus
+Ikrod
+Ildfrost
+Incarnadine
+Incubus
+Inferno
+Invisus
+Iolo
+Iridonia
+Ishantrissti
+Isis
+Ixia Hyperway
+Janus
 Jethanis
-Jokala
+Jezebel
 Jinook
-Koltan
-Knoglam
+Jokala
+Jubrup
+Kali
 Kartogia
 Kinkarka
-Lenoltris
-Lezzari
+Kira
+Klaatu
+Knoglam
+Koltan
+Lament Configuration
+Lamia
 Lapzooli
+Lavinia Rift
+Lazarus
+Legion
+Lenoltris
+Lethe
+Levant
+Leviathan
+Leviticus
+Lezzari
+Lilith
+Lucretia
+Luminara
 Lundra
-Mentocka
+Lux Aeterna
+Lycaeon
+Lysia
+Madorax
+Maelstrom
+Magus
+Malevola
+Malice Prime
+Malleus
+Malphas
+Mantra
+Marduk
 Marjoram
-Mveloem
+Megaera
+Mentocka
+Mephisto
+Mercurius
+Metatron
+Midian
+Minerva Outpost
+Misanthria
+Mithra
+Moloch's Procession
+Morbido
+Mordred
+Morgaine
+Moribund
+Morpheus
+Mortis
 Munjumb
+Murderworld
+Mutanda
+Mveloem
+Myrmidon
+Mysterion
+Naberius
 Narcisston
+Narcissus
 Neckron
+Necropolis
+Necrotic Sequence
+Nefaria
+Nemesis Gateway
+Netherworld
+Nexus
+Nicto
+Nightfall
 Nizzarum
 Nooloom
+Nosferatu
+Nova Corridor
+Novachron
+Nyx
+Oberon
+Obotron
+Obsidian Void
+Odalisque
 Olontra
 Organtrix
+Osiris
 Osshod
-Obotron
-Prenix
+Ouroboros
+Outer Veil
+Outworld
+Pandemonium
+Pandora
 Pantrissa
-Premius
 Pawtril
-Quikil
-Quesstris
-Qornor
+Pendragon
+Pentarus
+Perdition
+Persephone
+Pestilence
+Phaedra
+Phantasmagoria
+Phlegethon
+Phrixus
+Pithius
+Polaris
+Poseidon
+Premius
+Prenix
+Prometheus
+Proteus
+Purgatory
+Pyros
+Qazat
 Qikiltrin
-Resshrak
-Rizzil
-Remnorak
+Qornor
+Quesstris
+Quesstris
+Quikil
+Quirinus
+Raiden
+Rashaverak
 Regotha
+Reliquary
+Remnorak
+Requiem Cluster
+Resshrak
+Rhiannon
+Rizzil
+Rogue's Haven
+Sacrament
+Sanctus
+Sariel
+Saturnus
+Satyria
+Sentinel Cove
 Sephandris
+Sephiroth
+Sepulcrum
+Sequestrum
+Seraphim
+Serpentine
+Sheol Cloud
+Shiva
 Sillinta
+Silvanus
+Simulacrum
+Sisyphus
+Smuggler's Run
+Sodom
+Solator
+Somnus Expanse
+Sonnilon
 Sophenis
+Sphinx Cluster
+Stygian Abyss
+Styx
+Succubus
 Sutran
-Texrek
-Tudran
+Syrinx
+Tanith
+Tantalus
+Tartarus
+Tempest
+Tenebra Badlands
+Terminus
 Tesshana
+Texrek
+Thalia
+Thanatos
+The Nameless Mist
+Thecla
+Titania
+Titus
+Tocharian
+Triune Junction
+Tudran
+Twilight
 Tyrik
-Ushphada
 Ultrinox
+Undarum
+Underworld
+Urania
+Uriel
+Ushphada
 Utekra
+Utopia
 Uzara
-Vendrin
+Valkyrie's Fire
+Vaporum
 Vartoxia
-Vintindrin
 Velocitas
+Vendaxa
+Vendrin
+Verata
+Vesper
+Vintindrin
+Volupta
+Vulcanis
+Wanduk
+Wasteland
 Welshrok
 Wertreken
-Wanduk
 Wurtuy
-Xillantha
-Xiria
+Wyvern
+Xanaxia
+Xandil
 Xanthar
 Xiban
-Yukra
-Yoshri
-Yullado
+Xillantha
+Xiria
 Yabdul
-Zezzis
-Zekrat
+Yoshri
+Yukra
+Yullado
+Zalmoxis
 Zanthris
+Zekrat
+Zephyrus
+Zeta Zero Nine
+Zezzis
 Zitrod
