@@ -153,7 +153,7 @@ Tech Level Req 1      := 1
 Name                  := Mines
 Group                 := Applied Science
 Description           := The construction of small space mines.
-Maximum Level         := 5
+Maximum Level         := 4
 Level Cost            := 50000
 Start Level           := 0
 Raise Level           := 0
@@ -1171,6 +1171,20 @@ Racial Area           := 0
 Unique Area           := 0
 Can Be Removed        := False
 Number of Tech Req    := 0
+
+Name                  := Strategic Warheads
+Group                 := Weapon Technology
+Description           := The construction of strategic warheads for space mines.
+Maximum Level         := 3
+Level Cost            := 10000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 1
+Tech Area Req 1       := Mines
+Tech Level Req 1      := 4
 
 =======================================================================================
 *END*

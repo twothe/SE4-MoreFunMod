@@ -3165,6 +3165,44 @@ Ability 1 Descr     := Increases the shield strength of all ships in the system 
 Ability 1 Val 1     := 200
 Ability 1 Val 2     := 0
 
+Name                := Cloning Facility I
+Description         := Artificially created population used mainly for labor.
+Facility Group      := Population Support
+Facility Family     := 35
+Roman Numeral       := 1
+Restrictions        := None
+Pic Num             := 68
+Cost Minerals       := 2000
+Cost Organics       := 15000
+Cost Radioactives   := 2000
+Number of Tech Req  := 1
+Tech Area Req 1     := Medical Technology
+Tech Level Req 1    := 4
+Number of Abilities := 1
+Ability 1 Type      := Change Population - System
+Ability 1 Descr     := Populations in this system will increase by 2M per turn (only 1 facility per system effective).
+Ability 1 Val 1     := 2
+Ability 1 Val 2     := 0
+
+Name                := Cloning Facility II
+Description         := Artificially created population used mainly for labor.
+Facility Group      := Population Support
+Facility Family     := 35
+Roman Numeral       := 2
+Restrictions        := None
+Pic Num             := 68
+Cost Minerals       := 2000
+Cost Organics       := 15000
+Cost Radioactives   := 2000
+Number of Tech Req  := 1
+Tech Area Req 1     := Medical Technology
+Tech Level Req 1    := 5
+Number of Abilities := 1
+Ability 1 Type      := Change Population - System
+Ability 1 Descr     := Populations in this system will increase by 5M per turn (only 1 facility per system effective).
+Ability 1 Val 1     := 5
+Ability 1 Val 2     := 0
+
 =======================================================================================
 *END*
 =======================================================================================
