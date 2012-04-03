@@ -269,12 +269,12 @@ Tech Level Req 1               := 1
 
 Long Name                      := Blasting Mount
 Short Name                     := Blasting Mount
-Description                    := Constant overheating of the weapon increases the damage by 25%, but decreases the range by 1 and the chance to hit by 15%. Can only be used on Direct Fire weapons. 
+Description                    := Controlled overheating of the weapon increases the damage by 20%, but decreases the range by 1 and the chance to hit by 15%. Can only be used on Direct Fire weapons. 
 Code                           := B
 Cost Percent                   := 125
 Tonnage Percent                := 100
 Tonnage Structure Percent      := 100
-Damage Percent                 := 125
+Damage Percent                 := 120
 Supply Percent                 := 100
 Range Modifier                 := -1
 Weapon To Hit Modifier         := -15
