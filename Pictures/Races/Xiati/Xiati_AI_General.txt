@@ -35,7 +35,7 @@ Adv Traits:
 =======================================================================================
 
 Name                                     := Xiati
-Description                              := The Xiati are aggressive and known as devious schemers. They are known to possess Temporal Manipulation technology.
+Description                              := The Xiati are aggressive and known as devious schemers.
 Empire Name                              := Xiati
 Empire Type                              := Empire
 Emperor Name                             := Tax'renath
@@ -52,8 +52,7 @@ Design Name File                         := Ussr.txt
 Race Opt 1 Num Characteristics           := 1
 Race Opt 1 Characteristic 1 Type         := Refining Aptitude
 Race Opt 1 Characteristic 1 Amount       := 120
-Race Opt 1 Num Advanced Traits           := 1
-Race Opt 1 Adv Trait 1                   := Temporal Knowledge
+Race Opt 1 Num Advanced Traits           := 0
 Race Opt 2 Num Characteristics           := 3
 Race Opt 2 Characteristic 1 Type         := Refining Aptitude
 Race Opt 2 Characteristic 1 Amount       := 120
@@ -61,8 +60,7 @@ Race Opt 2 Characteristic 2 Type         := Cunning
 Race Opt 2 Characteristic 2 Amount       := 120
 Race Opt 2 Characteristic 3 Type         := Mining Aptitude
 Race Opt 2 Characteristic 3 Amount       := 120
-Race Opt 2 Num Advanced Traits           := 1
-Race Opt 2 Adv Trait 1                   := Temporal Knowledge
+Race Opt 2 Num Advanced Traits           := 0
 Race Opt 3 Num Characteristics           := 3
 Race Opt 3 Characteristic 1 Type         := Refining Aptitude
 Race Opt 3 Characteristic 1 Amount       := 120
@@ -70,10 +68,9 @@ Race Opt 3 Characteristic 2 Type         := Cunning
 Race Opt 3 Characteristic 2 Amount       := 120
 Race Opt 3 Characteristic 3 Type         := Mining Aptitude
 Race Opt 3 Characteristic 3 Amount       := 120
-Race Opt 3 Num Advanced Traits           := 3
-Race Opt 3 Adv Trait 1                   := Temporal Knowledge
-Race Opt 3 Adv Trait 2                   := Natural Merchants
-Race Opt 3 Adv Trait 3                   := Advanced Power Conservation
+Race Opt 3 Num Advanced Traits           := 2
+Race Opt 3 Adv Trait 1                   := Natural Merchants
+Race Opt 3 Adv Trait 2                   := Advanced Power Conservation
 
 =======================================================================================
 *END*

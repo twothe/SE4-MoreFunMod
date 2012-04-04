@@ -35,7 +35,7 @@ Adv Traits:
 =======================================================================================
 
 Name                                     := Phong
-Description                              := The Phong are a serene society of workers. Their advanced mining skills have allowed them to develop a crystalline technology.
+Description                              := The Phong are a serene society of workers with advanced mining skills.
 Empire Name                              := Phong
 Empire Type                              := Confederation
 Emperor Name                             := Gerath
@@ -52,14 +52,12 @@ Design Name File                         := Middeast.txt
 Race Opt 1 Num Characteristics           := 1
 Race Opt 1 Characteristic 1 Type         := Mining Aptitude
 Race Opt 1 Characteristic 1 Amount       := 120
-Race Opt 1 Num Advanced Traits           := 1
-Race Opt 1 Adv Trait 1                   := Crystallurgy
+Race Opt 1 Num Advanced Traits           := 0
 Race Opt 2 Num Characteristics           := 1
 Race Opt 2 Characteristic 1 Type         := Mining Aptitude
 Race Opt 2 Characteristic 1 Amount       := 120
-Race Opt 2 Num Advanced Traits           := 2
-Race Opt 2 Adv Trait 1                   := Crystallurgy
-Race Opt 2 Adv Trait 2                   := Advanced Storage Techniques
+Race Opt 2 Num Advanced Traits           := 1
+Race Opt 2 Adv Trait 1                   := Advanced Storage Techniques
 Race Opt 3 Num Characteristics           := 3
 Race Opt 3 Characteristic 1 Type         := Mining Aptitude
 Race Opt 3 Characteristic 1 Amount       := 120
@@ -67,10 +65,9 @@ Race Opt 3 Characteristic 2 Type         := Refining Aptitude
 Race Opt 3 Characteristic 2 Amount       := 120
 Race Opt 3 Characteristic 3 Type         := Construction Aptitude
 Race Opt 3 Characteristic 3 Amount       := 120
-Race Opt 3 Num Advanced Traits           := 3
-Race Opt 3 Adv Trait 1                   := Crystallurgy
-Race Opt 3 Adv Trait 2                   := Advanced Storage Techniques
-Race Opt 3 Adv Trait 3                   := Natural Merchants
+Race Opt 3 Num Advanced Traits           := 2
+Race Opt 3 Adv Trait 1                   := Advanced Storage Techniques
+Race Opt 3 Adv Trait 2                   := Natural Merchants
 
 =======================================================================================
 *END*

@@ -35,7 +35,7 @@ Adv Traits:
 =======================================================================================
 
 Name                                     := Cue Cappa
-Description                              := The Cue Cappa are a symbiotic race that have advanced psychic abilities. 
+Description                              := The Cue Cappa are a symbiotic race. 
 Empire Name                              := Cue Cappa
 Empire Type                              := Commonwealth
 Emperor Name                             := Gortalooth
@@ -46,7 +46,7 @@ General History Description              := Fear has been the biggest determinan
 Demeanor                                 := Honorable
 Culture                                  := Merchants
 Happiness Type                           := Peaceful
-Planet Type                              := Rock
+Planet Type                              := Gas Giant
 Atmosphere                               := Oxygen
 Design Name File                         := Alabama.txt
 Race Opt 1 Num Characteristics           := 2
@@ -54,8 +54,7 @@ Race Opt 1 Characteristic 1 Type         := Maintenance Aptitude
 Race Opt 1 Characteristic 1 Amount       := 105
 Race Opt 1 Characteristic 2 Type         := Political Savvy
 Race Opt 1 Characteristic 2 Amount       := 110
-Race Opt 1 Num Advanced Traits           := 1
-Race Opt 1 Adv Trait 1                   := Psychic
+Race Opt 1 Num Advanced Traits           := 0
 Race Opt 2 Num Characteristics           := 3
 Race Opt 2 Characteristic 1 Type         := Maintenance Aptitude
 Race Opt 2 Characteristic 1 Amount       := 110
@@ -63,8 +62,7 @@ Race Opt 2 Characteristic 2 Type         := Political Savvy
 Race Opt 2 Characteristic 2 Amount       := 120
 Race Opt 2 Characteristic 3 Type         := Physical Strength
 Race Opt 2 Characteristic 3 Amount       := 120
-Race Opt 2 Num Advanced Traits           := 1
-Race Opt 2 Adv Trait 1                   := Psychic
+Race Opt 2 Num Advanced Traits           := 0
 Race Opt 3 Num Characteristics           := 3
 Race Opt 3 Characteristic 1 Type         := Maintenance Aptitude
 Race Opt 3 Characteristic 1 Amount       := 110
@@ -72,10 +70,9 @@ Race Opt 3 Characteristic 2 Type         := Political Savvy
 Race Opt 3 Characteristic 2 Amount       := 120
 Race Opt 3 Characteristic 3 Type         := Physical Strength
 Race Opt 3 Characteristic 3 Amount       := 120
-Race Opt 3 Num Advanced Traits           := 3
-Race Opt 3 Adv Trait 1                   := Psychic
-Race Opt 3 Adv Trait 2                   := Natural Merchants
-Race Opt 3 Adv Trait 3                   := Lucky
+Race Opt 3 Num Advanced Traits           := 2
+Race Opt 3 Adv Trait 1                   := Natural Merchants
+Race Opt 3 Adv Trait 2                   := Lucky
 
 =======================================================================================
 *END*

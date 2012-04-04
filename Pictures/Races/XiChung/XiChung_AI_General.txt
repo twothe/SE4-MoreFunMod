@@ -52,15 +52,13 @@ Design Name File                         := Ravager.txt
 Race Opt 1 Num Characteristics           := 1
 Race Opt 1 Characteristic 1 Type         := Aggressiveness
 Race Opt 1 Characteristic 1 Amount       := 110
-Race Opt 1 Num Advanced Traits           := 1
-Race Opt 1 Adv Trait 1                   := Organic Manipulation
+Race Opt 1 Num Advanced Traits           := 0
 Race Opt 2 Num Characteristics           := 2
 Race Opt 2 Characteristic 1 Type         := Aggressiveness
 Race Opt 2 Characteristic 1 Amount       := 120
 Race Opt 2 Characteristic 2 Type         := Defensiveness 
 Race Opt 2 Characteristic 2 Amount       := 110
-Race Opt 2 Num Advanced Traits           := 1
-Race Opt 2 Adv Trait 1                   := Organic Manipulation
+Race Opt 2 Num Advanced Traits           := 0
 Race Opt 3 Num Characteristics           := 3
 Race Opt 3 Characteristic 1 Type         := Aggressiveness
 Race Opt 3 Characteristic 1 Amount       := 120
@@ -68,9 +66,8 @@ Race Opt 3 Characteristic 2 Type         := Defensiveness
 Race Opt 3 Characteristic 2 Amount       := 120
 Race Opt 3 Characteristic 3 Type         := Mining Aptitude
 Race Opt 3 Characteristic 3 Amount       := 120
-Race Opt 3 Num Advanced Traits           := 2
-Race Opt 3 Adv Trait 1                   := Organic Manipulation
-Race Opt 3 Adv Trait 2                   := Propulsion Experts
+Race Opt 3 Num Advanced Traits           := 1
+Race Opt 3 Adv Trait 1                   := Propulsion Experts
 
 =======================================================================================
 *END*

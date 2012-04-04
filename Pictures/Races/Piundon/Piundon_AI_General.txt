@@ -35,7 +35,7 @@ Adv Traits:
 =======================================================================================
 
 Name                                     := Piundon
-Description                              := The Piundon are a silicon based lifeform that is extremely violent. They have developed an advanced crystalline based technology.
+Description                              := The Piundon are a silicon based lifeform that is extremely violent.
 Empire Name                              := Piundon
 Empire Type                              := Empire
 Emperor Name                             := Pira-sith
@@ -57,9 +57,8 @@ Race Opt 1 Adv Trait 1                   := Crystallurgy
 Race Opt 2 Num Characteristics           := 1
 Race Opt 2 Characteristic 1 Type         := Mining Aptitude
 Race Opt 2 Characteristic 1 Amount       := 120
-Race Opt 2 Num Advanced Traits           := 2
-Race Opt 2 Adv Trait 1                   := Crystallurgy
-Race Opt 2 Adv Trait 2                   := Propulsion Experts
+Race Opt 2 Num Advanced Traits           := 1
+Race Opt 2 Adv Trait 1                   := Propulsion Experts
 Race Opt 3 Num Characteristics           := 3
 Race Opt 3 Characteristic 1 Type         := Mining Aptitude
 Race Opt 3 Characteristic 1 Amount       := 120
@@ -67,10 +66,9 @@ Race Opt 3 Characteristic 2 Type         := Refining Aptitude
 Race Opt 3 Characteristic 2 Amount       := 120
 Race Opt 3 Characteristic 3 Type         := Construction Aptitude
 Race Opt 3 Characteristic 3 Amount       := 120
-Race Opt 3 Num Advanced Traits           := 3
-Race Opt 3 Adv Trait 1                   := Crystallurgy
-Race Opt 3 Adv Trait 2                   := Propulsion Experts
-Race Opt 3 Adv Trait 3                   := Natural Merchants
+Race Opt 3 Num Advanced Traits           := 2
+Race Opt 3 Adv Trait 1                   := Propulsion Experts
+Race Opt 3 Adv Trait 2                   := Natural Merchants
 
 =======================================================================================
 *END*
