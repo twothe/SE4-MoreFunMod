@@ -6,10 +6,10 @@ AI DATA FILE - Settings
 *BEGIN*
 =======================================================================================
 
-Max Ship Size Tonnage From Start 1 Amount                                    := 510
-Max Ship Size Tonnage From Start 1 Num Turns                                 := 20   
-Max Ship Size Tonnage From Start 2 Amount                                    := 610
-Max Ship Size Tonnage From Start 2 Num Turns                                 := 40   
+Max Ship Size Tonnage From Start 1 Amount                                    := 0
+Max Ship Size Tonnage From Start 1 Num Turns                                 := 0   
+Max Ship Size Tonnage From Start 2 Amount                                    := 0
+Max Ship Size Tonnage From Start 2 Num Turns                                 := 0   
 Max Ship Size Tonnage From Start 3 Amount                                    := 0
 Max Ship Size Tonnage From Start 3 Num Turns                                 := 0   
 Turns to Wait until next attack                                              := 6
