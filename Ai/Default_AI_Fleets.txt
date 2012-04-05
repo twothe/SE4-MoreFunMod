@@ -37,27 +37,30 @@ Fleets Default Strategy
 *BEGIN*
 =======================================================================================
 
-Fleets Num Divisions                                                         := 5
+Fleets Num Divisions                                                         := 6
 Fleets Div 1 Max Amount of Ships                                             := 20
 Fleets Div 1 Max Amount of Planets                                           := 0
-Fleets Div 1 Num Fleets                                                      := 3
-Fleets Div 2 Max Amount of Ships                                             := 50
+Fleets Div 1 Num Fleets                                                      := 1
+Fleets Div 2 Max Amount of Ships                                             := 40
 Fleets Div 2 Max Amount of Planets                                           := 0
-Fleets Div 2 Num Fleets                                                      := 5
+Fleets Div 2 Num Fleets                                                      := 2
 Fleets Div 3 Max Amount of Ships                                             := 80
 Fleets Div 3 Max Amount of Planets                                           := 0
-Fleets Div 3 Num Fleets                                                      := 6
+Fleets Div 3 Num Fleets                                                      := 3
 Fleets Div 4 Max Amount of Ships                                             := 100
 Fleets Div 4 Max Amount of Planets                                           := 0
-Fleets Div 4 Num Fleets                                                      := 8
-Fleets Div 5 Max Amount of Ships                                             := 100000
+Fleets Div 4 Num Fleets                                                      := 4
+Fleets Div 5 Max Amount of Ships                                             := 150
 Fleets Div 5 Max Amount of Planets                                           := 0
-Fleets Div 5 Num Fleets                                                      := 10
+Fleets Div 5 Num Fleets                                                      := 5
+Fleets Div 6 Max Amount of Ships                                             := 100000
+Fleets Div 6 Max Amount of Planets                                           := 0
+Fleets Div 6 Num Fleets                                                      := 10
 Fleets Percentage of Ships For Fleets                                        := 80
-Fleets Dont Use For Num Turns                                                := 20
+Fleets Dont Use For Num Turns                                                := 10
 Fleets Default Formation                                                     := Arrowhead
 Fleets Default Strategy                                                      := Optimal Firing Range
-Percentage of Fleets to use for defense                                      := 70
+Percentage of Fleets to use for defense                                      := 30
 
 =======================================================================================
 *END*

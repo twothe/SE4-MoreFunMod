@@ -154,6 +154,11 @@ Tech Area Name               := Resupply
 Tech Area Level              := 2
 Tech Area Min Percent        := 50
 
+AI State                     := Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ship Construction
+Tech Area Level              := 6
+Tech Area Min Percent        := 75
+
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Troops
 Tech Area Level              := 1
@@ -209,7 +214,7 @@ Tech Area Name               := Weapon Platforms
 Tech Area Level              := 2
 Tech Area Min Percent        := 75
 
-AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+AI State                     := Exploration, Infrastructure
 Tech Area Name               := Ship Construction
 Tech Area Level              := 5
 Tech Area Min Percent        := 50
