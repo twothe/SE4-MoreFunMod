@@ -50,7 +50,7 @@ Minimum Planet Size for Type              := Medium
 Mineral Value                             := 120
 Organics Value                            := 100
 Radioactives Value                        := 100
-Maximum Total in Empire                   := 5
+Maximum Total in Empire                   := 3
 
 AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
 Planet Type                               := Research Compound
@@ -70,7 +70,7 @@ Minimum Planet Size for Type              := Medium
 Mineral Value                             := 100
 Organics Value                            := 100
 Radioactives Value                        := 120
-Maximum Total in Empire                   := 5
+Maximum Total in Empire                   := 2
 
 AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected 
 Planet Type                               := Farming Colony
@@ -80,7 +80,7 @@ Minimum Planet Size for Type              := Medium
 Mineral Value                             := 100
 Organics Value                            := 120
 Radioactives Value                        := 100
-Maximum Total in Empire                   := 5
+Maximum Total in Empire                   := 2
 
 AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
 Planet Type                               := Mining Colony
