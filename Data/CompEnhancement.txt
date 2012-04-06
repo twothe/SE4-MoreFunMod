@@ -84,6 +84,42 @@ Tech Level Req X:   (Optional)
 *BEGIN*
 =======================================================================================
 
+Long Name                      := Blasting Mount
+Short Name                     := Blasting Mount
+Description                    := Controlled overheating of the weapon increases the damage by 20%, but decreases the range by 1 and the chance to hit by 15%. Can only be used on Direct Fire weapons. 
+Code                           := B
+Cost Percent                   := 125
+Tonnage Percent                := 100
+Tonnage Structure Percent      := 100
+Damage Percent                 := 120
+Supply Percent                 := 100
+Range Modifier                 := -1
+Weapon To Hit Modifier         := -15
+Vehicle Size Minimum           := 1
+Weapon Type Requirement        := Direct Fire
+Vehicle Type                   := Ship
+Number of Tech Req             := 1
+Tech Area Req 1                := Military Science
+Tech Level Req 1               := 1
+
+Long Name                      := Precision Mount
+Short Name                     := Precision Mount
+Description                    := High precision weapon mount which increases the range by 3, the chance to hit by 15%, but reduces the damage by 20%. Can only be used on Direct Fire weapons. 
+Code                           := P
+Cost Percent                   := 125
+Tonnage Percent                := 100
+Tonnage Structure Percent      := 100
+Damage Percent                 := 80
+Supply Percent                 := 100
+Range Modifier                 := 3
+Weapon To Hit Modifier         := 10
+Vehicle Size Minimum           := 1
+Weapon Type Requirement        := Direct Fire
+Vehicle Type                   := Ship
+Number of Tech Req             := 1
+Tech Area Req 1                := Military Science
+Tech Level Req 1               := 1
+
 Long Name                      := Large Ship Mount
 Short Name                     := Large Mount
 Description                    := Larger sized weapon mount which increases damage from the weapon by 2 times. Requires a vehicle size of at least 400kT. Can only be used on Direct Fire weapons. 
@@ -174,6 +210,21 @@ Vehicle Size Minimum           := 600
 Weapon Type Requirement        := Direct Fire
 Vehicle Type                   := Weapon Platform
 
+Long Name                      := Satellite Mount
+Short Name                     := Satellite Mount
+Description                    := High precision weapon mount which increases the range of the weapon by 4 and increases the chance to hit by 15%. Can only be used on Direct Fire weapons. 
+Code                           := S
+Cost Percent                   := 125
+Tonnage Percent                := 100
+Tonnage Structure Percent      := 100
+Damage Percent                 := 100
+Supply Percent                 := 100
+Range Modifier                 := 4
+Weapon To Hit Modifier         := 15
+Vehicle Size Minimum           := 1
+Weapon Type Requirement        := Direct Fire
+Vehicle Type                   := Satellite
+
 Long Name                      := Large Satellite Mount
 Short Name                     := Large Mount
 Description                    := Larger sized weapon mount which increases damage from the weapon by 2 times, the range by 6 and the chance to hit by 15%. Can only be used on Direct Fire weapons. 
@@ -233,57 +284,6 @@ Weapon To Hit Modifier         := 80
 Vehicle Size Minimum           := 2500
 Weapon Type Requirement        := Direct Fire
 Vehicle Type                   := Base
-
-Long Name                      := Satellite Mount
-Short Name                     := Satellite Mount
-Description                    := High precision weapon mount which increases the range of the weapon by 4 and increases the chance to hit by 15%. Can only be used on Direct Fire weapons. 
-Code                           := S
-Cost Percent                   := 125
-Tonnage Percent                := 100
-Tonnage Structure Percent      := 100
-Damage Percent                 := 100
-Supply Percent                 := 100
-Range Modifier                 := 4
-Weapon To Hit Modifier         := 15
-Vehicle Size Minimum           := 1
-Weapon Type Requirement        := Direct Fire
-Vehicle Type                   := Satellite
-
-Long Name                      := Precision Mount
-Short Name                     := Precision Mount
-Description                    := High precision weapon mount which increases the range by 3, the chance to hit by 15%, but reduces the damage by 20%. Can only be used on Direct Fire weapons. 
-Code                           := P
-Cost Percent                   := 125
-Tonnage Percent                := 100
-Tonnage Structure Percent      := 100
-Damage Percent                 := 80
-Supply Percent                 := 100
-Range Modifier                 := 3
-Weapon To Hit Modifier         := 10
-Vehicle Size Minimum           := 1
-Weapon Type Requirement        := Direct Fire
-Vehicle Type                   := Ship
-Number of Tech Req             := 1
-Tech Area Req 1                := Military Science
-Tech Level Req 1               := 1
-
-Long Name                      := Blasting Mount
-Short Name                     := Blasting Mount
-Description                    := Controlled overheating of the weapon increases the damage by 20%, but decreases the range by 1 and the chance to hit by 15%. Can only be used on Direct Fire weapons. 
-Code                           := B
-Cost Percent                   := 125
-Tonnage Percent                := 100
-Tonnage Structure Percent      := 100
-Damage Percent                 := 120
-Supply Percent                 := 100
-Range Modifier                 := -1
-Weapon To Hit Modifier         := -15
-Vehicle Size Minimum           := 1
-Weapon Type Requirement        := Direct Fire
-Vehicle Type                   := Ship
-Number of Tech Req             := 1
-Tech Area Req 1                := Military Science
-Tech Level Req 1               := 1
 
 =======================================================================================
 *END*

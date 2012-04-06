@@ -119,7 +119,12 @@ Tech Area Name               := Ship Construction
 Tech Area Level              := 4
 Tech Area Min Percent        := 75
 
-AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+AI State                     := Prepare for Attack, Attack 
+Tech Area Name               := Energy Pulse Weapons
+Tech Area Level              := 5
+Tech Area Min Percent        := 50
+
+AI State                     := Exploration, Infrastructure, Defend (Long Term) 
 Tech Area Name               := Military Science
 Tech Area Level              := 1
 Tech Area Min Percent        := 50
@@ -128,11 +133,6 @@ AI State                     := Exploration, Infrastructure, Secure Holdings Aft
 Tech Area Name               := Ship Construction
 Tech Area Level              := 4
 Tech Area Min Percent        := 75
-
-AI State                     := Prepare for Attack, Attack 
-Tech Area Name               := Energy Pulse Weapons
-Tech Area Level              := 5
-Tech Area Min Percent        := 50
 
 AI State                     := Exploration, Infrastructure, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Energy Pulse Weapons
@@ -148,6 +148,11 @@ AI State                     := Exploration, Infrastructure, Prepare for Attack,
 Tech Area Name               := Armor
 Tech Area Level              := 6
 Tech Area Min Percent        := 25
+
+AI State                     := Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term) 
+Tech Area Name               := Military Science
+Tech Area Level              := 1
+Tech Area Min Percent        := 50
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Ship Construction
@@ -184,6 +189,11 @@ Tech Area Name               := Ship Construction
 Tech Area Level              := 6
 Tech Area Min Percent        := 75
 
+AI State                     := Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Satellites
+Tech Area Level              := 2
+Tech Area Min Percent        := 25
+
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Smaller Weapons
 Tech Area Level              := 3
@@ -219,19 +229,14 @@ Tech Area Name               := Weapon Platforms
 Tech Area Level              := 2
 Tech Area Min Percent        := 75
 
-AI State                     := Exploration, Infrastructure, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
-Tech Area Name               := Ship Construction
-Tech Area Level              := 6
-Tech Area Min Percent        := 50
-
-AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
-Tech Area Name               := Industry
+AI State                     := Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Fighters
 Tech Area Level              := 1
 Tech Area Min Percent        := 50
 
-AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
-Tech Area Name               := Computers
-Tech Area Level              := 2
+AI State                     := Exploration, Infrastructure, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ship Construction
+Tech Area Level              := 6
 Tech Area Min Percent        := 50
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
@@ -245,9 +250,9 @@ Tech Area Level              := 7
 Tech Area Min Percent        := 50
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
-Tech Area Name               := High-Energy Discharge Weapons
-Tech Area Level              := 4
-Tech Area Min Percent        := 50
+Tech Area Name               := Torpedo Weapons
+Tech Area Level              := 5
+Tech Area Min Percent        := 25
 
 AI State                     := Exploration, Infrastructure
 Tech Area Name               := Cargo
@@ -285,7 +290,7 @@ Tech Area Level              := 6
 Tech Area Min Percent        := 50
 
 AI State                     := Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
-Tech Area Name               := High-Energy Discharge Weapons
+Tech Area Name               := Torpedo Weapons
 Tech Area Level              := 10
 Tech Area Min Percent        := 25
 
@@ -370,6 +375,11 @@ Tech Area Level              := 10
 Tech Area Min Percent        := 25
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Industry
+Tech Area Level              := 1
+Tech Area Min Percent        := 50
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Computers
 Tech Area Level              := 3
 Tech Area Min Percent        := 50
@@ -424,15 +434,10 @@ Tech Area Name               := Propulsion
 Tech Area Level              := 10
 Tech Area Min Percent        := 25
 
-AI State                     := Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
-Tech Area Name               := Astrophysics
+AI State                     := Exploration, Prepare for Attack, Attack, Incursion
+Tech Area Name               := Satellites
 Tech Area Level              := 3
-Tech Area Min Percent        := 50
-
-AI State                     := Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
-Tech Area Name               := Null-Space Weapons
-Tech Area Level              := 3
-Tech Area Min Percent        := 50
+Tech Area Min Percent        := 25
 
 AI State                     := Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Advanced Military Science
