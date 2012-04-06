@@ -11,17 +11,21 @@ Name:
 *BEGIN*
 =======================================================================================
 
+Name                 := Military Installation
+
 Name                 := Mining Colony
 
 Name                 := Farming Colony
 
 Name                 := Refining Colony
 
+Name                 := Resupply Base
+
 Name                 := Research Compound
 
 Name                 := Intelligence Compound
 
-Name                 := Military Installation
+Name                 := Construction Yard
 
 =======================================================================================
 *END*

@@ -6,17 +6,17 @@ AI DATA FILE - Settings
 *BEGIN*
 =======================================================================================
 
-Max Ship Size Tonnage From Start 1 Amount                                    := 510
-Max Ship Size Tonnage From Start 1 Num Turns                                 := 20   
-Max Ship Size Tonnage From Start 2 Amount                                    := 610
-Max Ship Size Tonnage From Start 2 Num Turns                                 := 40   
+Max Ship Size Tonnage From Start 1 Amount                                    := 0
+Max Ship Size Tonnage From Start 1 Num Turns                                 := 0   
+Max Ship Size Tonnage From Start 2 Amount                                    := 0
+Max Ship Size Tonnage From Start 2 Num Turns                                 := 0   
 Max Ship Size Tonnage From Start 3 Amount                                    := 0
 Max Ship Size Tonnage From Start 3 Num Turns                                 := 0   
 Turns to Wait until next attack                                              := 6
-Maximum Maintenance Percent of Revenue                                       := 80
+Maximum Maintenance Percent of Revenue                                       := 70
 Maximum Research Point Generation                                            := 300000
 Maximum Intelligence Point Generation                                        := 500000
-Maximum Systems to Defend at a Time                                          := 5
+Maximum Systems to Defend at a Time                                          := 3
 Get Angry Over Allied Colonizable Planets                                    := False
 Get Angry Over Enemy Colonizable Planets                                     := False
 Percentage of Allied Planets to consider as Attack Locations for Anger       := 10    
@@ -26,7 +26,7 @@ Ships don't move through minefields                                          := 
 Ships don't move through restricted systems                                  := True
 Clear orders on encounter enemy                                              := True
 Clear orders on encounter all                                                := True
-Percentage of total satellites to keep as planetary cargo                    := 30
+Percentage of total satellites to keep as planetary cargo                    := 50
 Percentage of total drones to keep as planetary cargo                        := 50
 Number Of Anti-Ship Drones Per Target                                        := 3
 Number Of Anti-Planet Drones Per Target                                      := 3
