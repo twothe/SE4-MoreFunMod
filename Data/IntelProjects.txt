@@ -112,7 +112,7 @@ Source Picture            := IntelSabotageByUs
 Target Picture            := ShipDamaged                   
 Number of Tech Req        := 1
 Tech Area Req 1           := Applied Intelligence
-Tech Level Req 1          := 2
+Tech Level Req 1          := 5
 
 Name                      := Crew Rotation
 Description               := Through faked messages, an experienced crew is broken up and reassigned.

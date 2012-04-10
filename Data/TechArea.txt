@@ -759,7 +759,7 @@ Tech Level Req 1      := 1
 Name                  := Missile Weapons
 Group                 := Weapon Technology
 Description           := Guided missile weapons which seek after and hit enemy ships.
-Maximum Level         := 7
+Maximum Level         := 6
 Level Cost            := 15000
 Start Level           := 1
 Raise Level           := 0
@@ -853,7 +853,7 @@ Tech Level Req 1      := 4
 Name                  := Tractor\Repulser Weapons
 Group                 := Weapon Technology
 Description           := Weapons which move enemy vessels through space.
-Maximum Level         := 4
+Maximum Level         := 6
 Level Cost            := 30000
 Start Level           := 0
 Raise Level           := 0
@@ -920,7 +920,7 @@ Number of Tech Req    := 2
 Tech Area Req 1       := Physics
 Tech Level Req 1      := 2
 Tech Area Req 2       := Tractor\Repulser Weapons
-Tech Level Req 2      := 4
+Tech Level Req 2      := 6
 
 Name                  := Biological Weapons
 Group                 := Weapon Technology
@@ -1185,6 +1185,20 @@ Can Be Removed        := True
 Number of Tech Req    := 1
 Tech Area Req 1       := Mines
 Tech Level Req 1      := 4
+
+Name                  := Tactical Missile Weapons
+Group                 := Weapon Technology
+Description           := Tactical missile weapons which seek after and hit enemy ships.
+Maximum Level         := 5
+Level Cost            := 15000
+Start Level           := 1
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 1
+Tech Area Req 1       := Missile Weapons
+Tech Level Req 1      := 6
 
 =======================================================================================
 *END*
