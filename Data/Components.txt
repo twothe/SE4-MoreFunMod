@@ -5318,7 +5318,7 @@ Weapon Display Type   := Seeker
 Weapon Display        := 2
 Weapon Modifier       := 0
 Weapon Sound          := plastorp.wav
-Weapon Family         := 5
+Weapon Family         := 2
 Weapon Seeker Speed   := 6
 Weapon Seeker Dmg Res := 30
 
@@ -5350,7 +5350,7 @@ Weapon Display Type   := Seeker
 Weapon Display        := 2
 Weapon Modifier       := 0
 Weapon Sound          := plastorp.wav
-Weapon Family         := 5
+Weapon Family         := 2
 Weapon Seeker Speed   := 6
 Weapon Seeker Dmg Res := 30
 
@@ -5382,7 +5382,7 @@ Weapon Display Type   := Seeker
 Weapon Display        := 2
 Weapon Modifier       := 0
 Weapon Sound          := plastorp.wav
-Weapon Family         := 5
+Weapon Family         := 2
 Weapon Seeker Speed   := 6
 Weapon Seeker Dmg Res := 40
 
@@ -5414,7 +5414,7 @@ Weapon Display Type   := Seeker
 Weapon Display        := 2
 Weapon Modifier       := 0
 Weapon Sound          := plastorp.wav
-Weapon Family         := 5
+Weapon Family         := 2
 Weapon Seeker Speed   := 7
 Weapon Seeker Dmg Res := 50
 
@@ -5446,7 +5446,7 @@ Weapon Display Type   := Seeker
 Weapon Display        := 2
 Weapon Modifier       := 0
 Weapon Sound          := plastorp.wav
-Weapon Family         := 5
+Weapon Family         := 2
 Weapon Seeker Speed   := 8
 Weapon Seeker Dmg Res := 60
 
