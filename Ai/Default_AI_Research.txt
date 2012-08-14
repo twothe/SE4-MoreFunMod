@@ -75,6 +75,11 @@ Tech Area Level              := 2
 Tech Area Min Percent        := 25
 
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Projectile Weapons
+Tech Area Level              := 3
+Tech Area Min Percent        := 25
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Astrophysics
 Tech Area Level              := 1
 Tech Area Min Percent        := 25
@@ -82,6 +87,11 @@ Tech Area Min Percent        := 25
 AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Stellar Harnessing
 Tech Area Level              := 3
+Tech Area Min Percent        := 25
+
+AI State                     := Exploration
+Tech Area Name               := Cargo
+Tech Area Level              := 2
 Tech Area Min Percent        := 25
 
 AI State                     := Not Connected
@@ -114,7 +124,7 @@ Tech Area Name               := Armor
 Tech Area Level              := 3
 Tech Area Min Percent        := 25
 
-AI State                     := Prepare for Attack, Attack, Incursion
+AI State                     := Prepare for Attack, Attack
 Tech Area Name               := Ship Construction
 Tech Area Level              := 4
 Tech Area Min Percent        := 75
@@ -129,7 +139,7 @@ Tech Area Name               := Military Science
 Tech Area Level              := 1
 Tech Area Min Percent        := 50
 
-AI State                     := Exploration, Infrastructure, Secure Holdings After Attack, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+AI State                     := Exploration, Infrastructure, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
 Tech Area Name               := Ship Construction
 Tech Area Level              := 4
 Tech Area Min Percent        := 75
