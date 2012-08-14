@@ -1120,9 +1120,9 @@ Unique Area           := 3
 Can Be Removed        := False
 Number of Tech Req    := 0
 
-Name                  := Massive Planetary Shielding
+Name                  := Massive Planetary Generation
 Group                 := Applied Science
-Description           := Massive shield generators which can protect an entire planet.
+Description           := Massive resource generators which generate resources from sunlight.
 Maximum Level         := 1
 Level Cost            := 100000
 Start Level           := 0
