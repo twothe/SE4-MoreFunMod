@@ -80,7 +80,7 @@ Minimum Planet Size for Type              := Medium
 Mineral Value                             := 80
 Organics Value                            := 100
 Radioactives Value                        := 100
-Maximum Total in Empire                   := 4
+Maximum Total in Empire                   := 5
 
 AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
 Planet Type                               := Mining Colony
@@ -120,7 +120,7 @@ Minimum Planet Size for Type              := Medium
 Mineral Value                             := 0
 Organics Value                            := 0
 Radioactives Value                        := 0
-Maximum Total in Empire                   := 0
+Maximum Total in Empire                   := 2
 
 AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
 Planet Type                               := Military Installation
@@ -160,6 +160,16 @@ Minimum Planet Size for Type              := Tiny
 Mineral Value                             := 110
 Organics Value                            := 100
 Radioactives Value                        := 100
+Maximum Total in Empire                   := 0
+
+AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
+Planet Type                               := Intelligence Compound
+Max Per System                            := 100
+Percent of Colonies                       := 10
+Minimum Planet Size for Type              := Tiny
+Mineral Value                             := 0
+Organics Value                            := 0
+Radioactives Value                        := 0
 Maximum Total in Empire                   := 0
 
 AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
