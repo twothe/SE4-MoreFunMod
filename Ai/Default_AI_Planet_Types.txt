@@ -45,12 +45,12 @@ Maximum Total in Empire:
 AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
 Planet Type                               := Mining Colony
 Max Per System                            := 100
-Percent of Colonies                       := 40
+Percent of Colonies                       := 100
 Minimum Planet Size for Type              := Medium
-Mineral Value                             := 120
+Mineral Value                             := 101
 Organics Value                            := 0
 Radioactives Value                        := 0
-Maximum Total in Empire                   := 3
+Maximum Total in Empire                   := 2
 
 AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
 Planet Type                               := Refining Colony
@@ -59,7 +59,7 @@ Percent of Colonies                       := 100
 Minimum Planet Size for Type              := Medium
 Mineral Value                             := 0
 Organics Value                            := 0
-Radioactives Value                        := 110
+Radioactives Value                        := 101
 Maximum Total in Empire                   := 1
 
 AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected 
@@ -68,7 +68,7 @@ Max Per System                            := 100
 Percent of Colonies                       := 100
 Minimum Planet Size for Type              := Medium
 Mineral Value                             := 0
-Organics Value                            := 110
+Organics Value                            := 101
 Radioactives Value                        := 0
 Maximum Total in Empire                   := 1
 
@@ -100,25 +100,35 @@ Minimum Planet Size for Type              := Medium
 Mineral Value                             := 0
 Organics Value                            := 0
 Radioactives Value                        := 0
-Maximum Total in Empire                   := 4
+Maximum Total in Empire                   := 2
 
-AI State                                  := Exploration, Infrastructure
+AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
 Planet Type                               := Refining Colony
 Max Per System                            := 100
 Percent of Colonies                       := 5
 Minimum Planet Size for Type              := Medium
 Mineral Value                             := 0
 Organics Value                            := 0
-Radioactives Value                        := 130
+Radioactives Value                        := 120
 Maximum Total in Empire                   := 0
 
-AI State                                  := Exploration, Infrastructure
+AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
 Planet Type                               := Farming Colony
 Max Per System                            := 100
 Percent of Colonies                       := 5
 Minimum Planet Size for Type              := Medium
 Mineral Value                             := 0
-Organics Value                            := 130
+Organics Value                            := 120
+Radioactives Value                        := 0
+Maximum Total in Empire                   := 0
+
+AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
+Planet Type                               := Mining Colony
+Max Per System                            := 100
+Percent of Colonies                       := 80
+Minimum Planet Size for Type              := Medium
+Mineral Value                             := 130
+Organics Value                            := 0
 Radioactives Value                        := 0
 Maximum Total in Empire                   := 0
 
@@ -127,7 +137,7 @@ Planet Type                               := Mining Colony
 Max Per System                            := 100
 Percent of Colonies                       := 40
 Minimum Planet Size for Type              := Medium
-Mineral Value                             := 120
+Mineral Value                             := 101
 Organics Value                            := 0
 Radioactives Value                        := 0
 Maximum Total in Empire                   := 0
@@ -146,16 +156,6 @@ AI State                                  := Exploration, Infrastructure, Prepar
 Planet Type                               := Intelligence Compound
 Max Per System                            := 100
 Percent of Colonies                       := 8
-Minimum Planet Size for Type              := Medium
-Mineral Value                             := 0
-Organics Value                            := 0
-Radioactives Value                        := 0
-Maximum Total in Empire                   := 2
-
-AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
-Planet Type                               := Military Installation
-Max Per System                            := 1
-Percent of Colonies                       := 5
 Minimum Planet Size for Type              := Medium
 Mineral Value                             := 0
 Organics Value                            := 0
@@ -173,16 +173,6 @@ Radioactives Value                        := 0
 Maximum Total in Empire                   := 30
 
 AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
-Planet Type                               := Mining Colony
-Max Per System                            := 100
-Percent of Colonies                       := 100
-Minimum Planet Size for Type              := Small
-Mineral Value                             := 120
-Organics Value                            := 0
-Radioactives Value                        := 0
-Maximum Total in Empire                   := 0
-
-AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
 Planet Type                               := Intelligence Compound
 Max Per System                            := 100
 Percent of Colonies                       := 8
@@ -193,7 +183,27 @@ Radioactives Value                        := 0
 Maximum Total in Empire                   := 0
 
 AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
-Planet Type                               := Construction Yard
+Planet Type                               := Military Installation
+Max Per System                            := 1
+Percent of Colonies                       := 5
+Minimum Planet Size for Type              := Medium
+Mineral Value                             := 0
+Organics Value                            := 0
+Radioactives Value                        := 0
+Maximum Total in Empire                   := 2
+
+AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
+Planet Type                               := Mining Colony
+Max Per System                            := 100
+Percent of Colonies                       := 100
+Minimum Planet Size for Type              := Tiny
+Mineral Value                             := 110
+Organics Value                            := 0
+Radioactives Value                        := 0
+Maximum Total in Empire                   := 0
+
+AI State                                  := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
+Planet Type                               := Resupply Base
 Max Per System                            := 100
 Percent of Colonies                       := 100
 Minimum Planet Size for Type              := Tiny
