@@ -229,14 +229,14 @@ Long Name                      := Large Satellite Mount
 Short Name                     := Large Mount
 Description                    := Larger sized weapon mount which increases damage from the weapon by 2 times, the range by 6 and the chance to hit by 15%. Can only be used on Direct Fire weapons. 
 Code                           := L
-Cost Percent                   := 125
-Tonnage Percent                := 125
+Cost Percent                   := 225
+Tonnage Percent                := 200
 Tonnage Structure Percent      := 200
 Damage Percent                 := 200
 Supply Percent                 := 200
 Range Modifier                 := 6
 Weapon To Hit Modifier         := 15
-Vehicle Size Minimum           := 100
+Vehicle Size Minimum           := 120
 Weapon Type Requirement        := Direct Fire
 Vehicle Type                   := Satellite
 
