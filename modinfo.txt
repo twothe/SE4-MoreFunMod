@@ -12,4 +12,4 @@ twothe@web.de
 Website:-
 None
 Description
-A mod that attemps to increase the fun of SE4 without changing the general gameplay.
+A mod that attempts to increase the fun of SE4 without changing the general game-play.
